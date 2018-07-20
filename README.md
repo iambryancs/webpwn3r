@@ -1,6 +1,8 @@
 WebPwn3r - Dockerized
 ========
 
+[![Build Status](https://api.travis-ci.org/iambryancs/webpwn3r.svg?branch=master)](https://travis-ci.org/iambryancs/webpwn3r)
+
 A Dockerized version of WebPwn3r - Web Applications Security Scanner.
 
 By Ebrahim Hegazy - @Zigoo0
