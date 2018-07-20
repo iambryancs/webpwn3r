@@ -5,9 +5,7 @@ language: bash
 services: docker
 
 env:
-  - DOCKER_ID=bryancs
-  - DOCKER_IMAGE=webpwn3r
-  - VERSION=latest
+  - DOCKER_ID=bryancs DOCKER_IMAGE=webpwn3r VERSION=latest
 
 script:
   - docker build -t ${DOCKER_ID}/${DOCKER_IMAGE}:${VERSION} .
