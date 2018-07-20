@@ -1,7 +1,7 @@
-webpwn3r
+WebPwn3r - Dockerized
 ========
 
-WebPwn3r - Web Applications Security Scanner.
+A Dockerized version of WebPwn3r - Web Applications Security Scanner.
 
 By Ebrahim Hegazy - @Zigoo0
 
@@ -9,17 +9,14 @@ Thanks: @lnxg33k, @dia2diab @Aelhemily, @okamalo
 
 Please send all your feedback and suggestions to: zigoo.blog['at']@gmail.com
 
-How to use:
+## Docker Usage
 
-1- python scan.py
-
-2- The tool will ask you if you want to scan URL or List of urls?
-
-    1- Enter number 1 to scan a URL
-    
-    2- Enter number 2 to scan list of URL's
-    
-3- URL should be a full link with a parameters
+1. `docker pull bryancs/webpwn3r`
+1. `docker run -it bryancs/webpwn3r` or add `--rm` option to remove container after use
+1. The tool will ask you if you want to scan URL or List of urls?
+    1. Enter number 1 to scan a URL
+    1. Enter number 2 to scan list of URL's
+1. URL should be a full link with a parameters
 
 .e.g http://localhost/rand/news.php?com=val&id=11&page=24&text=zigoo
 
